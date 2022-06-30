@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/faq.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/logo.png">  
+        <title>OS.Omi</title> 
+    </head>
+    <body>
+        <header>
+            <nav id='menu'>
+                <ul>
+                    <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="caixaFAQ">
+            <h1 class="titulo">Perguntas Frequentes</h1>
+            <div class="p">
+                <p class="curs" onclick="p1()">Nossos produtos são originais? &#8595;</p>
+                <p id="r1">Sim. Nossos produtos são encomendados diretamente dos fabricantes.</p>
+            </div>
+            <div class="p">
+                <p class="curs" onclick="p2()">Como instalo os drivers no Windows 10? 	
+                    &#8595;</p>
+                <p id="r2">Baixe o driver do site do Produto. Baixe e instale uma ferramenta de extração de terceiros, como 7-zip ou WinRAR.
+                    O próprio Windows não reconhecerá o arquivo setup.exe na próxima etapa, mas também poderá ser extraído sem usá-lo. Quando terminar, execute o arquivo de configuração extraído.</p>
+            </div>
+            <div class="p">
+                <p class="curs" onclick="p3()">Os produtos são novos? 	
+                    &#8595;</p>
+                <p id="r3">Sim, todos os nossos produtos são novos e lacrados, com garantia do fabricante.</p>
+            </div>
+        </div>
+        <script src="js/Jquery.js"></script>
+        <script src="js/faq.js"></script>
+    </body>
+</html>

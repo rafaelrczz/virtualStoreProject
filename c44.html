@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>OS.Omi</title>
+    <link rel="stylesheet" href="css/umc22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav id='menu'>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dflex">
+        <div id="prod">
+            <div class="passaFoto">
+                <div class="caixaFoto">
+                    <img src="images/lyra-c44/1.png" id="foto1" class="fotografa">
+                    <img src="images/lyra-c44/2.png" id="foto2" class="fotografa">
+                    <img src="images/lyra-c44/3.png" id="foto3" class="fotografa">
+                    <img src="images/lyra-c44/4.png" id="foto4" class="fotografa">
+                </div>
+                <div class="fotoPequena">
+                    <img src="images/lyra-c44/1.png" id="fotop1" onclick="foto1()">
+                    <img src="images/lyra-c44/2.png" id="fotop2"  onclick="foto2()">
+                    <img src="images/lyra-c44/3.png" id="fotop3"  onclick="foto3()">
+                    <img src="images/lyra-c44/4.png" bid="fotop4" onclick="foto4()">
+                </div>
+                <script src="js/passaFoto.js"></script>
+                <script src="js/Jquery.js"></script>
+                <script>
+                    $("#foto2").hide()
+                    $("#foto3").hide()
+                    $("#foto4").hide()
+                </script>
+            </div>
+        </div>
+        <div id="sobreprod">
+            <h1 id="nomeprod">Microfone Condensador AKG LYRA C44-USB Ultra-HD</h1>
+            <h2>Sobre</h2>
+            <pre>
+                Seja para podcast, vídeos, live streaming ou gravação, tudo poderá ser feito de forma rápida e profissional com o microfone Ultra HD, multimodo USB AKG Lyra. 
+                Há mais de 70 anos, as melhores gravações e performances do mundo são capturadas pelos microfones AKG - e agora, é a sua vez. Para utilizar, basta conectar o
+                Lyra ao seu PC, Mac, celular ou tablet. Requisitos do sistema: Windows 8 ou superior, Mac OS 10.7 ou superior, Android 9 ou superior, iOS 10 ou superior. 
+                O suporte a iOS pode exigir o kit de conexão de câmera da Apple, o suporte do Android pode exigir o cabo adaptador OTG, disponível separadamente. 
+                O desempenho máximo de 24 bits/192 kHz depende do dispositivo utilizado e da capacidade do software.
+
+                Especificações Gerais
+                Protocolo de transferência USB 2.0
+                Transdutor4 cápsulas condensadoras exclusivas da AKG
+                Modos de captura Selecionáveis
+            </pre>
+                <p id="preco"><span class="boldvermelho">R$799,00</span> à vista</p>
+            <input type="button" value="COMPRAR" id="comprar">
+        </div>
+    </div>
+</body>
+</html>

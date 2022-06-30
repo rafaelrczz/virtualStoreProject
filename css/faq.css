@@ -1,0 +1,38 @@
+.caixaFAQ{
+    background: #fff;
+    width: 550px;
+    text-align: center;
+    padding: 45px 20px;
+    padding-bottom: 55px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 140px;
+    box-shadow: 0 0 1em rgb(61, 61, 61);
+}
+
+body{
+    background-color:#af0127;
+}
+
+.titulo{
+    color: #c4002a;
+    margin-bottom: 20px;
+}
+
+.p{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: fit-content;
+    color: #c4002a;
+    margin-top: 10px;
+    cursor: none;
+}
+
+.curs{
+    cursor: pointer;
+}
+
+#r1, #r2, #r3{
+    color: black;
+}

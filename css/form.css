@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+#fc{
+    color: red;
+    font-weight: normal;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    background: grey;
+    margin-top: 15px;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.in{
+    margin-top: 15px;
+}
+
+.lDesc{
+    margin-top: 15px;
+    display: flex;
+}
+
+#desc{
+    resize: none;
+    width: 250px;
+    height: 150px;
+}
+
+.btn{
+    padding: 3px;
+    margin-top: 10px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(75, 75, 75);
+}

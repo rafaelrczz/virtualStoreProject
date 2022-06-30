@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>OS.Omi</title>
+    <link rel="stylesheet" href="css/umc22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav id='menu'>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dflex">
+        <div id="prod">
+            <div class="passaFoto">
+                <div class="caixaFoto">
+                    <img src="images/elx-200/1.png" id="foto1" class="fotografa">
+                    <img src="images/elx-200/2.png" id="foto2" class="fotografa">
+                    <img src="images/elx-200/3.png" id="foto3" class="fotografa">
+                    <img src="images/elx-200/4.png" id="foto4" class="fotografa">
+                </div>
+                <div class="fotoPequena">
+                    <img src="images/elx-200/1.png" id="fotop1" onclick="foto1()">
+                    <img src="images/elx-200/2.png" id="fotop2"  onclick="foto2()">
+                    <img src="images/elx-200/3.png" id="fotop3"  onclick="foto3()">
+                    <img src="images/elx-200/4.png" bid="fotop4" onclick="foto4()">
+                </div>
+                <script src="js/passaFoto.js"></script>
+                <script src="js/Jquery.js"></script>
+                <script>
+                    $("#foto2").hide()
+                    $("#foto3").hide()
+                    $("#foto4").hide()
+                </script>
+            </div>
+        </div>
+        <div id="sobreprod">
+            <h1 id="nomeprod">Caixa Ativa Electro Voice ELX200 15P 1200W 132dB 15 Polegadas Bivolt</h1>
+            <h2>Sobre</h2>
+            <pre>
+                ELECTRO VOICE ELX200 15P
+
+                ELX200-15P apresenta amplificadores de potência Classe-D de alta eficiência (até 1200 W) com QuickSmartDSP integrado e fornece até 132 dB SPL utilizando 
+                transdutores projetados e projetados por EV (woofer EVS-15M de 15 polegadas acoplado a DH-1C Driver de compressão de titânio de 1 polegada).
+
+                Os modelos de gama completa com potência permitem fácil configuração por meio de quatro predefinições (Música, Ao vivo, Fala, Clube), crossovers 
+                de correspondência de sistema sub / superior, equalização de três bandas, cinco predefinições programáveis ??pelo usuário (configurações de armazenamento 
+                e recuperação), monitoramento visual do limitador status, controle de nível de entrada e medidores e controle de volume principal para garantir uma 
+                estrutura de ganho ideal.
+
+                Os modelos elétricos ELX200 são ideais para aplicações portáteis e instaladas, com gabinetes de polipropileno leves e duráveis, três pontos de montagem 
+                roscados M10 e o design comprovado da alça ZLX para facilitar o levantamento.
+            </pre>
+                <p id="preco"><span class="boldvermelho">R$5.560,00</span> à vista</p>
+            <input type="button" value="COMPRAR" id="comprar">
+        </div>
+    </div>
+</body>
+</html>

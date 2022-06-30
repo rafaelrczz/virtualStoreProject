@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>OS.Omi</title>
+    <link rel="stylesheet" href="css/umc22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav id='menu'>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dflex">
+        <div id="prod">
+            <div class="passaFoto">
+                <div class="caixaFoto">
+                    <img src="images/scarlett/1.png" id="foto1" class="fotografa">
+                    <img src="images/scarlett/2.png" id="foto2" class="fotografa">
+                    <img src="images/scarlett/3.png" id="foto3" class="fotografa">
+                    <img src="images/scarlett/4.png" id="foto4" class="fotografa">
+                </div>
+                <div class="fotoPequena">
+                    <img src="images/scarlett/1.png" id="fotop1" onclick="foto1()">
+                    <img src="images/scarlett/2.png" id="fotop2"  onclick="foto2()">
+                    <img src="images/scarlett/3.png" id="fotop3"  onclick="foto3()">
+                    <img src="images/scarlett/4.png" bid="fotop4" onclick="foto4()">
+                </div>
+                <script src="js/passaFoto.js"></script>
+                <script src="js/Jquery.js"></script>
+                <script>
+                    $("#foto2").hide()
+                    $("#foto3").hide()
+                    $("#foto4").hide()
+                </script>
+            </div>
+        </div>
+        <div id="sobreprod">
+            <h1 id="nomeprod">Interface de Áudio Focusrite Scarlett Solo USB 3a Geração</h1>
+            <h2>Sobre</h2>
+            <pre>
+                "Ideal para cantores, compositores e guitarristas, o Focusrite Scarlett Solo de terceira geração é uma interface de áudio USB 2x2 que oferece hardware de alto 
+                desempenho, microfone personalizável e um pacote de software criativo. O aprimorado pré-amplificador de microfone da Scarlett possui alimentação phantom 
+                selecionável 
+                e um circuito de ar selecionável, que adiciona brilho com base no lendário pré-amplificador ISA da Focusrite. Além da entrada de microfone XLR, a Scarlett Solo 
+                fornece uma entrada de 1/4 ""com um interruptor de linha / instrumento que permite aceitar sinal de uma guitarra, baixo, sintetizador ou bateria eletrônica.
+                Conversores de 24 bits / 192 kHz garantem que os sinais sejam capturados e reproduzidos com detalhes e clareza. Ouça fones de ouvido ou conecte os alto-falantes 
+                ativos às saídas 
+                balanceadas de monitor de 1/4 "". Como a Scarlett Solo é alimentada via USB, você pode levá-la para qualquer lugar que o computador Mac ou Windows possa usar. 
+                O pacote extensivo 
+                inclui software de produção musical e instrumentos virtuais. , efeitos de plug-in, loops e muito mais - muitas ferramentas para dar o pontapé inicial em sua inspiração.
+            </pre>
+                <p id="preco"><span class="boldvermelho">R$1.455,00</span> à vista</p>
+            <input type="button" value="COMPRAR" id="comprar">
+        </div>
+    </div>
+</body>
+</html>

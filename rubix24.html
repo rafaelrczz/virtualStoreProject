@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>OS.Omi</title>
+    <link rel="stylesheet" href="css/umc22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav id='menu'>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dflex">
+        <div id="prod">
+            <div class="passaFoto">
+                <div class="caixaFoto">
+                    <img src="images/roland-rubix24/1.png" id="foto1" class="fotografa">
+                    <img src="images/roland-rubix24/2.png" id="foto2" class="fotografa">
+                    <img src="images/roland-rubix24/3.png" id="foto3" class="fotografa">
+                    <img src="images/roland-rubix24/4.png" id="foto4" class="fotografa">
+                </div>
+                <div class="fotoPequena">
+                    <img src="images/roland-rubix24/1.png" id="fotop1" onclick="foto1()">
+                    <img src="images/roland-rubix24/2.png" id="fotop2"  onclick="foto2()">
+                    <img src="images/roland-rubix24/3.png" id="fotop3"  onclick="foto3()">
+                    <img src="images/roland-rubix24/4.png" bid="fotop4" onclick="foto4()">
+                </div>
+                <script src="js/passaFoto.js"></script>
+                <script src="js/Jquery.js"></script>
+                <script>
+                    $("#foto2").hide()
+                    $("#foto3").hide()
+                    $("#foto4").hide()
+                </script>
+            </div>
+        </div>
+        <div id="sobreprod">
+            <h1 id="nomeprod">Interface Roland Rubix24 Black 2 In 4 Out MIDI/USB</h1>
+            <h2>Sobre</h2>
+            <pre>
+                ROLAND RUBIX24 INTERFACE DE ÁUDIO PARA MAC, PC E IPAD COM 2 ENTRADAS E 4 SAÍDAS
+                A Rubix 24 oferece um equilíbrio perfeito entre som de alta fidelidade, estrutura sólida, tamanho compacto, preço acessível e recursos fundamentais 
+                para músicos e produtores.
+
+                Com suporte para áudio de alta resolução em até 24 bits / 192 kHz, a Rubix 24 tem um som claro e definido, e foi desenvolvida cuidadosamente para 
+                proporcionar um nível de ruído extremamente baixo da entrada até a saída.
+
+                A compatibilidade com o padrão USB faz com que ela funcione perfeitamente com computadores Mac ou PC, e até mesmo com iPads, para atender às 
+                necessidades modernas de produção e performance de música em dispositivos portáteis.
+            </pre>
+                <p id="preco"><span class="boldvermelho">R$2.245,00</span> à vista</p>
+            <input type="button" value="COMPRAR" id="comprar">
+        </div>
+    </div>
+</body>
+</html>

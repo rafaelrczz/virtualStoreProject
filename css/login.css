@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+body{
+    background-color: #af0127;
+}
+
+#menu {
+	background: #0099CC;
+	background: linear-gradient(to bottom,  #ee1040,  #af0127);
+	color: #FFF;
+	height: 80px;
+	padding-left: 18px;
+    width: 100%;
+}
+
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+
+#menu ul {
+	width: 100%;
+}
+
+#menu li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+
+#menu a {
+	display: block;
+	line-height: 80px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+#menu li a:hover {
+    cursor: pointer;
+	color: #af0127;
+	background: #F2F2F2;
+}
+
+#menu input {
+	display: none;
+	margin: 0;
+}
+
+.logo{
+    width: 80px;
+}
+
+
+#menu > ul > li > a.login{
+    font-size: 14;
+}
+
+#menu > ul > li.direita{
+    float: right;
+    margin-right: 40px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+.caixaLogin{
+    background: #fff;
+    width: 550px;
+    text-align: center;
+    padding: 45px 20px;
+    padding-bottom: 55px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 140px;
+    box-shadow: 0 0 1em rgb(61, 61, 61);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 8px;
+}
+
+
+
+label{
+    padding-left: 10px;
+    color: #c4002a;
+    font-weight: bolder;
+}
+
+.boxnome, .boxsenha{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#login, #reg{
+    width: 380px;
+    height: 35px;
+    padding: 3px;
+    margin: 3px;
+    background-color: #af0127;
+    font-weight: bolder;
+    border: 1px solid #920020;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#nome, #senha{
+    width: 380px;
+    height: 35px;
+    color: #ee1040;
+    border: 1px solid rgb(105, 105, 105);
+    padding-left: 5px;
+}
+
+#login:hover, #reg:hover{
+    background-color: #c4002a;
+    cursor: pointer;
+}
+
+
+.padtop20{
+    padding-top: 20px;
+}

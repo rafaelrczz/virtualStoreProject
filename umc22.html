@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>OS.Omi</title>
+    <link rel="stylesheet" href="css/umc22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <nav id='menu'>
+            <ul>
+                <li><a href="index.html"><img src="images/logo.png" class="logo"></a></li>
+                <li><a href='index.html'>INÍCIO</a></li>
+                <li><a href='produtos.html'>PRODUTOS</a>
+                </li>
+                <li><a href='faleconosco.html'>FALE CONOSCO</a>
+                </li>
+                <li><a href='faq.html'>PERGUNTAS FREQUENTES</a></li>
+                <li class="direita"><a class="login" href="login.html">ENTRAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dflex">
+        <div id="prod">
+            <div class="passaFoto">
+                <div class="caixaFoto">
+                    <img src="images/umc22.png" id="foto1" class="fotografa">
+                    <img src="images/umc22box.png" id="foto2" class="fotografa">
+                    <img src="images/umc22esq.png" id="foto3" class="fotografa">
+                    <img src="images/umc22tras.png" id="foto4" class="fotografa">
+                </div>
+                <div class="fotoPequena">
+                    <img src="images/umc22.png" id="fotop1" onclick="foto1()">
+                    <img src="images/umc22box.png" id="fotop2"  onclick="foto2()">
+                    <img src="images/umc22esq.png" id="fotop3"  onclick="foto3()">
+                    <img src="images/umc22tras.png" bid="fotop4" onclick="foto4()">
+                </div>
+                <script src="js/passaFoto.js"></script>
+                <script src="js/Jquery.js"></script>
+                <script>
+                    $("#foto2").hide()
+                    $("#foto3").hide()
+                    $("#foto4").hide()
+                </script>
+            </div>
+        </div>
+        <div id="sobreprod">
+            <h1 id="nomeprod">Interface Áudio 2 Canais Behringer Umc22 Usb U-phoria</h1>
+            <h2>Sobre</h2>
+            <pre>
+                A Behringer UMC22 é uma interface de áudio USB 2x2 para microfones e instrumentos de gravação com ótimo custo-benefício.
+    
+                Descrição:
+                    • Interface de áudio USB 2x2 para microfones e instrumentos de gravação;
+                    • Resolução de 48 kHz para a qualidade de áudio profissional;
+                    • Compatível com softwares de gravação de populares, incluindo Avid Pro Tools, Ableton Live e Steinberg Cubase;
+                    • 2 entradas / 2 saídas com latência ultra-baixa para o seu computador, suportando Mac OS X, Windows XP ou superior;
+                    • Pré-amplificadores projetados pela Midas;
+                    • Saída de fones com controle de nível e Direct Monitor.
+            </pre>
+                <p id="preco"><span class="boldvermelho">R$785,00</span> à vista</p>
+            <input type="button" value="COMPRAR" id="comprar">
+        </div>
+    </div>
+</body>
+</html>
